@@ -4,6 +4,7 @@
   "description": "a standard readme generator ",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/AyomideAwonaya21/readme-generator#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
+    "inquirer": "^8.0.0",
     "request": "^2.88.2"
   }
 }
